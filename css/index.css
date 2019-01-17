@@ -244,6 +244,11 @@ img {
     background-color: #de1e7e;
   }
 }
+@media (max-width: 800px) {
+  .home {
+    padding: 0 2%;
+  }
+}
 @media (max-width: 500px) {
   .home {
     padding: 0 5%;
@@ -352,6 +357,12 @@ img {
   width: 83%;
   padding: 1.5rem;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: white;
+  color: #17A2B8;
+  border: 1px solid #17A2B8;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
