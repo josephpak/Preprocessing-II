@@ -246,6 +246,7 @@ img {
 }
 .home .header h1 {
   padding-top: 10px;
+  font-size: 3rem;
 }
 .home .header p {
   padding-top: 10px;
@@ -318,6 +319,7 @@ img {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
+  justify-content: center;
 }
 @media (max-width: 500px) {
   .home .content-pick {
