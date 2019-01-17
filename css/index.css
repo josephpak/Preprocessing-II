@@ -1,14 +1,3 @@
-.cta-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #17A2B8;
-  color: white;
-  border-radius: 1rem;
-  width: 83%;
-  padding: 1.5rem;
-  font-size: 1.5rem;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -228,12 +217,32 @@ img {
   width: 100%;
   border-top: 2px dashed silver;
   background: #FFEBCD;
+  animation-name: changes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 .footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@keyframes changes {
+  0% {
+    background-color: #FFEBCD;
+  }
+  25% {
+    background-color: MediumAquamarine;
+  }
+  50% {
+    background-color: FireBrick;
+  }
+  75% {
+    background-color: Chartreuse;
+  }
+  100% {
+    background-color: #de1e7e;
+  }
 }
 @media (max-width: 500px) {
   .home {

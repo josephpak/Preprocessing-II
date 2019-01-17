@@ -2,6 +2,8 @@
   width: 100%;
   border-top: 2px dashed silver;
   background: @sandy-beach;
+  //.weird-colors(10s, infinite);
+  .weird-colors(10s, infinite);
   
   p {
     text-align: center;
@@ -9,4 +11,12 @@
     font-size: 1.6rem;
     padding: 20px;
   }
+}
+
+@keyframes changes {
+  0% {background-color: @sandy-beach;}
+  25% {background-color: MediumAquamarine;}
+  50% {background-color: FireBrick}
+  75% {background-color: Chartreuse;}
+  100% {background-color: #de1e7e;}
 }
