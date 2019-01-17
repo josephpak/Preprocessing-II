@@ -177,6 +177,11 @@ img {
 .nav {
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 800px) {
+  .nav {
+    padding: 0 2%;
+  }
+}
 .nav .navigation {
   display: flex;
   justify-content: space-between;
