@@ -1,1 +1,27 @@
-// Mixins in here
+.cta-btn () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @button-bg;
+    color: white;
+    border-radius: 1rem;
+    width: 83%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: @button-bg;
+        border: 1px solid @button-bg;
+      }
+
+}
+
+// Animation
+
+.weird-colors (@speed, @duration) {
+    animation-name: changes;
+    animation-duration: @speed;
+    animation-iteration-count: @duration
+}
